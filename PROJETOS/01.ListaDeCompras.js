@@ -43,10 +43,10 @@ function pesquisarItem() {
     }
 }
 function ordenarLista() {
-    listaDeCompras.sort((a, b) => maiusculo(a).localeCompare(maiusculo(b)))
+   listaDeCompras.sort((a, b) => maiusculo(a).localeCompare(maiusculo(b)))
     listaDeCompras.forEach(item => {
         console.log(item)
-    });
+    })  
 }
 function exibirLista() {
     listaDeCompras.forEach(item => {
